@@ -1,10 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const EventListPage = () => {
+  const [events, setEvents] = useState([]); // State for events
   const [selectedEvent, setSelectedEvent] = useState(null); // State for selected event
   const [isModalOpen, setIsModalOpen] = useState(false); // State to manage modal visibility
-  const events = JSON.parse(localStorage.getItem("events")) || [];
+
+  useEffect(() => {
+    // Ensure localStorage access is client-side
+    if (typeof window !== "undefined") {
+      const storedEvents = JSON.parse(localStorage.getItem("events")) || [];
+      setEvents(storedEvents);
+    }
+  }, []); // Empty dependency array ensures it runs only once
 
   const viewEventDetails = (event) => {
     setSelectedEvent(event); // Set the selected event
@@ -77,4 +85,3 @@ const EventListPage = () => {
 };
 
 export default EventListPage;
-
