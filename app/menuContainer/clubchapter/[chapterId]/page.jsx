@@ -1,36 +1,27 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import React, { useState } from "react";
+import { useRouter, useParams } from "next/navigation";
 
-const ChapterDetail = ({ params: asyncParams }) => {
+const ChapterDetail = () => {
   const router = useRouter();
-  const [chapterId, setChapterId] = useState(null);
+  const params = useParams(); // Use this hook to access route params
+  const chapterId = params.chapterId; // Get the chapterId from params
+
   const [selectedClub, setSelectedClub] = useState("default");
   const [description, setDescription] = useState("");
 
   const clubs = {
     default: "Select a club to see the description.",
-    science: "This is the Science Club's description for the chapter.",
-    literature: "This is the Literature Club's description for the chapter.",
-    arts: "This is the Arts Club's description for the chapter.",
+    science: "The idea of nourishment in plants and other organisms is the main topic of this chapter. The notes emphasize the role that nutrition plays in the growth and health of plants. The explanation of nutrition modes covers both autotrophic and heterotrophic organisms.",
+    literature: "The definition of literature broadly encompasses written works used to transmit culture. However, literature is not always limited to the written word. The literature meaning can include stories told in the oral tradition and visual literature, such as drama that is intended to be performed before an audience.",
+    arts: "Art is a creative expression that can be visual or experiential, and is made through skill or imagination. It can be a physical object, such as a painting, sculpture, or printmaking, or it can be a performing art, such as theater or dance. Art can also be a branch of learning, such as literature, or a skill, such as cooking. ",
   };
-
-  // Resolve `params` asynchronously
-  useEffect(() => {
-    asyncParams.then((resolvedParams) => {
-      setChapterId(resolvedParams.chapterId);
-    });
-  }, [asyncParams]);
 
   const handleClubChange = (event) => {
     const selected = event.target.value;
     setSelectedClub(selected);
     setDescription(clubs[selected]);
   };
-
-  if (!chapterId) {
-    return <div>Loading...</div>;
-  }
 
   return (
     <div className="max-w-4xl mx-auto p-6">

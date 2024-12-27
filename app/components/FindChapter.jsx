@@ -7,7 +7,7 @@ const locationsData = [
       id: "1",
       name: "Community Hall A",
       image:
-        "https://images.unsplash.com/photo-1582719478181-d1a30a54001e?w=1887&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1576158113928-4c240eaaf360?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       location: "Downtown, City A",
       incharge: "John Doe",
       contact: "+1 123 456 7890",
@@ -16,7 +16,7 @@ const locationsData = [
       id: "2",
       name: "Sports Arena B",
       image:
-        "https://images.unsplash.com/photo-1508898578281-774ac4893a5e?w=1887&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1579158949482-3e9e0ac69333?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       location: "Uptown, City B",
       incharge: "Jane Smith",
       contact: "+1 987 654 3210",
@@ -25,7 +25,7 @@ const locationsData = [
       id: "3",
       name: "Library C",
       image:
-        "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=1887&auto=format&fit=crop",
+        "https://plus.unsplash.com/premium_photo-1712665535102-fddaf87dbc17?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       location: "Midtown, City C",
       incharge: "Samuel Lee",
       contact: "+1 555 123 4567",
@@ -34,7 +34,7 @@ const locationsData = [
       id: "4",
       name: "Innovation Center D",
       image:
-        "https://images.unsplash.com/photo-1528108971810-dc8535157d6b?w=1887&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1578589385251-045f05a6faa5?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       location: "Tech Park, City D",
       incharge: "Sophia Johnson",
       contact: "+1 234 567 8901",
@@ -43,7 +43,7 @@ const locationsData = [
       id: "5",
       name: "Art Gallery E",
       image:
-        "https://images.unsplash.com/photo-1549893078-3e57767b3760?w=1887&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1578589318514-262b58e01f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Cultural District, City E",
       incharge: "Michael Brown",
       contact: "+1 654 321 0987",
@@ -52,7 +52,7 @@ const locationsData = [
       id: "6",
       name: "Wellness Center F",
       image:
-        "https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?w=1887&auto=format&fit=crop",
+    "https://plus.unsplash.com/premium_photo-1712679697258-b92e63ed26dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Health Street, City F",
       incharge: "Emily Davis",
       contact: "+1 789 123 4567",
@@ -61,7 +61,7 @@ const locationsData = [
       id: "7",
       name: "Event Hall G",
       image:
-        "https://images.unsplash.com/photo-1531053273740-5d4a0c1a9c03?w=1887&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1578589318514-262b58e01f19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Event Avenue, City G",
       incharge: "Christopher Wilson",
       contact: "+1 321 654 9870",
@@ -70,7 +70,7 @@ const locationsData = [
       id: "8",
       name: "Startup Incubator H",
       image:
-        "https://images.unsplash.com/photo-1591696205602-2da90e074c29?w=1887&auto=format&fit=crop",
+        "https://plus.unsplash.com/premium_photo-1712866130888-9385e0bc192c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Business Bay, City H",
       incharge: "Olivia Martinez",
       contact: "+1 456 789 1234",
@@ -79,7 +79,7 @@ const locationsData = [
       id: "9",
       name: "Tech Hub I",
       image:
-        "https://images.unsplash.com/photo-1553649078-8d3d82dbd9bf?w=1887&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1576158129605-fb0c93eeedfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Silicon Valley, City I",
       incharge: "David Lee",
       contact: "+1 987 123 6540",
@@ -88,56 +88,13 @@ const locationsData = [
       id: "10",
       name: "Conference Center J",
       image:
-        "https://images.unsplash.com/photo-1564252998730-3139fa8c38ae?w=1887&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1579818637899-9ecd338746e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGltYWdlJTIwb2YlMjBsb2NhdGlvbnN8ZW58MHx8MHx8fDA%3D",
       location: "Downtown, City J",
       incharge: "Sophia Taylor",
       contact: "+1 654 987 1230",
     },
-    {
-      id: "11",
-      name: "Civic Hall K",
-      image:
-        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1887&auto=format&fit=crop",
-      location: "Main Street, City K",
-      incharge: "Liam Anderson",
-      contact: "+1 890 123 4567",
-    },
-    {
-      id: "12",
-      name: "Science Lab L",
-      image:
-        "https://images.unsplash.com/photo-1508614886908-94f5b7b038d7?w=1887&auto=format&fit=crop",
-      location: "University Campus, City L",
-      incharge: "Charlotte White",
-      contact: "+1 567 890 1234",
-    },
-    {
-      id: "13",
-      name: "Innovation Center M",
-      image:
-        "https://images.unsplash.com/photo-1519648023493-d82b5f8d7d93?w=1887&auto=format&fit=crop",
-      location: "Industrial Zone, City M",
-      incharge: "Elijah Martinez",
-      contact: "+1 321 789 4560",
-    },
-    {
-      id: "14",
-      name: "Youth Center N",
-      image:
-        "https://images.unsplash.com/photo-1485841890310-6a055c88698a?w=1887&auto=format&fit=crop",
-      location: "Community Lane, City N",
-      incharge: "Amelia Clark",
-      contact: "+1 789 654 1234",
-    },
-    {
-      id: "15",
-      name: "Training Center O",
-      image:
-        "https://images.unsplash.com/photo-1519300399480-9da1831f1a3b?w=1887&auto=format&fit=crop",
-      location: "Training Avenue, City O",
-      incharge: "Benjamin Garcia",
-      contact: "+1 456 321 7890",
-    },
+   
+
   ];
   
 

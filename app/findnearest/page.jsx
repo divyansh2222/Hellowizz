@@ -1,7 +1,7 @@
       
 
 import FindChapter from "../components/FindChapter";
-
+import layout from "./layout";
 const Home = () => {
   return (
     <layout>

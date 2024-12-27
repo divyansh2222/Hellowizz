@@ -5,16 +5,7 @@ import { useState } from 'react';
 import SearchBar from './Searchbar';
 import { CiMenuKebab } from "react-icons/ci";
 
-
-
-
-
-
-
-  // Define routes where menuContainer should be hidden
-  
-
-
+import { FiLogOut } from "react-icons/fi";
 
 const Navbar = () => {
   // State to manage the visibility of the dropdown menu
@@ -78,6 +69,12 @@ const Navbar = () => {
                <Image src='/Vector (2).png' alt='name' width={20} height={20}></Image>
               <Link href="/menuContainer/offer" className="hover:text-gray-300">Offers</Link>
               </div>
+              <hr />
+              <div className='flex justify-start gap-2  items-center'>
+              <FiLogOut className='text-red-500' />
+              <Link href="/login" className="hover:text-gray-300">Logout</Link>
+              </div>
+
             </div>
           )}
         </div>

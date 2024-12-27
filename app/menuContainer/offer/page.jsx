@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useRouter } from "next/navigation";
-
+import layout from "./layout";
 const offerList = () => {
   const router = useRouter();
   const offers = [1, 2, 3, 4, 5]; // List of offer numbers
@@ -11,6 +11,7 @@ const offerList = () => {
   };
 
   return (
+    <layout>
     <div className="max-w-4xl mx-auto p-6">
       <h1 className="text-2xl font-semibold mb-6 text-center">Offer List</h1>
       <ul className="space-y-4">
@@ -33,6 +34,7 @@ const offerList = () => {
         ))}
       </ul>
     </div>
+    </layout>
   );
 };
 

@@ -27,7 +27,7 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6 text-center">
+    <div className="max-w-4xl mx-auto shadow-lg p-6 text-center">
       {/* Profile Picture Section */}
       <h1 className="text-xl mb-4">Profile</h1>
       <div className="flex justify-center items-center mb-6">
